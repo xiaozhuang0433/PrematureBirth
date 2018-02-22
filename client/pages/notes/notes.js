@@ -62,5 +62,12 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  /**
+   * 日期绑定
+   */
+  bindDateChange: function () {
+console.log("datepicker");
   }
 })

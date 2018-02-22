@@ -1,5 +1,17 @@
 <view>
-  <view>
-    <text>记录</text>
-  </view>
+<view class="section">
+    <view class="section__title">日期选择器</view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+            当前选择: {{date}}
+        </view>
+    </picker>
+</view>
+
+<view class="section">
+    <input type="number" />
+</view>
+
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
 </view>
